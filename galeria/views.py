@@ -7,3 +7,5 @@ def index(request):
     """ Retorna a request e a pagina html de templates"""
     return render(request, 'galeria/index.html')
     
+def imagem(request):
+    return render(request, 'galeria/imagem.html')
